@@ -5,7 +5,7 @@ const message2=document.querySelector('#msg-2')
 
 weather.addEventListener('submit',(e)=>{
     e.preventDefault()
-
+    //console.log("Taking location from text box")
     const location=search.value
     message1.textContent='Loading....'
     message2.textContent=''
